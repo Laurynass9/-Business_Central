@@ -44,9 +44,9 @@ page 50102 "Homework Tasks"
 
                 trigger OnAction()
                 var
-                    FirstTask: Codeunit "Tasks Functions";
+                    SecondTask: Codeunit "Tasks Functions";
                 begin
-                    FirstTask.FindMaxMinNum();
+                    SecondTask.FindMaxMinNum();
                 end;
             }
 
@@ -57,9 +57,9 @@ page 50102 "Homework Tasks"
 
                 trigger OnAction()
                 var
-                    FirstTask: Codeunit "Tasks Functions";
+                    ThirdTask: Codeunit "Tasks Functions";
                 begin
-                    FirstTask.FindRepeatingNum();
+                    ThirdTask.FindRepeatingNum();
                 end;
             }
 
@@ -70,9 +70,9 @@ page 50102 "Homework Tasks"
 
                 trigger OnAction()
                 var
-                    FirstTask: Codeunit "Tasks Functions";
+                    FourthTask: Codeunit "Tasks Functions";
                 begin
-                    FirstTask.FindVowelsAndConsonants();
+                    FourthTask.FindVowelsAndConsonants();
                 end;
             }
 
